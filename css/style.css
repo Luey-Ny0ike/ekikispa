@@ -13,6 +13,10 @@
 .cl-change {
   color: #F9A392;
 }
+.rest-p {
+  background-color: #545151;
+  margin-top: 3rem;
+}
 
 :root {
   --blue: #007bff;
