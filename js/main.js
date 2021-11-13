@@ -64,13 +64,13 @@
                 items:2
             },
             768:{
-                items:3
+                items:2
             },
             992:{
-                items:4
+                items:3
             },
             1200:{
-                items:5
+                items:3
             }
         }
     });
@@ -104,6 +104,16 @@
         smartSpeed: 1500,
         margin: 30,
         dots: true,
+        loop: true,
+        items: 1
+    });
+
+    // Testimonials images carousel
+    $(".testimonial-carousel-images").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
+        margin: 30,
+        dots: false,
         loop: true,
         items: 1
     });
