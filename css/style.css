@@ -17,6 +17,36 @@
   background-color: #545151;
   margin-top: 3rem;
 }
+.px-2 {
+  color: black;
+}
+.bold-up{
+  font-weight: bold;
+}
+.back-to-top-custom-one {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 290px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+.back-to-top-custom-two {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 220px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+.back-to-top-custom-three {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 150px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
 
 :root {
   --blue: #007bff;

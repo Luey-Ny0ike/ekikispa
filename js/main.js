@@ -23,8 +23,14 @@
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
+            $('.back-to-top-custom-one').fadeIn('slow');
+            $('.back-to-top-custom-two').fadeIn('slow');
+            $('.back-to-top-custom-three').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');
+            $('.back-to-top-custom-one').fadeOut('slow');
+            $('.back-to-top-custom-two').fadeOut('slow');
+            $('.back-to-top-custom-three').fadeOut('slow');
         }
     });
     $('.back-to-top').click(function () {
